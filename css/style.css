@@ -22,3 +22,12 @@
     url("../mds-fonts/McGillSerif-Medium.woff") format("woff"),
     url("../mds-fonts/McGillSerif-Medium.ttf") format("truetype");
 }
+
+/* AlpineJS x-cloak utility - hides elements not yet initalized by Alpine. 
+ * TODO: this would break some a11y concerns possibly if there's no JS.
+ * Need to have a check for that I think?
+*/
+
+[x-cloak] {
+  display: none;
+}

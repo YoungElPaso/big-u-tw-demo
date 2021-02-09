@@ -2,6 +2,7 @@
   <div id="block-menu-menu-global-menu">
     <ul class="flex flex-row space-x-8 justify-center w-full p-4 text-xl">
       <li
+        x-cloak
         x-data="{open: false}"
         @mouseover="open = true"
         @focusin="open = true"
@@ -68,6 +69,7 @@
         </div>
       </li>
       <li
+        x-cloak
         x-data="  {open: false}    "
         @mouseover="open = true"
         @focusin="open = true"
@@ -117,6 +119,7 @@
       </li>
 
       <li
+        x-cloak
         x-data=" {open: false}    "
         @mouseover="open = true"
         @focusin="open = true"
@@ -175,6 +178,7 @@
         </div>
       </li>
       <li
+        x-cloak
         x-data="  {open: false}    "
         @mouseover="open = true"
         @focusin="open = true"
@@ -222,7 +226,7 @@
           </ul>
         </div>
       </li>
-      <li
+      <li x-cloak
         x-data="  {open: false}    "
         @mouseover="open = true"
         @focusin="open = true"
