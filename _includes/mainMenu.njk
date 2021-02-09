@@ -1,0 +1,286 @@
+<div class="flex-grow z-50">
+  <div id="block-menu-menu-global-menu">
+    <ul class="flex flex-row space-x-8 justify-center w-full p-4 text-xl">
+      <li
+        x-data="{open: false}"
+        @mouseover="open = true"
+        @focusin="open = true"
+        @mouseout="open = false"
+        @focusout="open = false"
+        class="relative"
+      >
+        <a href="https://www.Big U  .ca/admissions/">Admissions</a>
+        <div
+          x-show="open"
+          x-transition:enter="transition ease-out duration-75"
+          x-transition:enter-start="opacity-0 transform scale-90"
+          x-transition:enter-end="opacity-100 transform scale-100"
+          x-transition:leave="transition ease-in duration-75"
+          x-transition:leave-start="opacity-100 transform scale-100"
+          x-transition:leave-end="opacity-0 transform scale-90"
+        >
+          <ul class="absolute p-4 min-w-max bg-white rounded shadow">
+            <li class="first leaf">
+              <a
+                href="https://www.Big U  .ca/undergraduate-admissions/programs"
+                title=""
+              >
+                Find an undergraduate program
+              </a>
+            </li>
+            <li class="">
+              <a
+                href="https://www.Big U  .ca/undergraduate-admissions/"
+                title=""
+              >
+                Undergraduate admissions
+              </a>
+            </li>
+            <li class="">
+              <a href="https://www.Big U  .ca/gradapplicants/programs" title="">
+                Find a graduate program
+              </a>
+            </li>
+            <li class="">
+              <a href="https://www.Big U  .ca/gradapplicants/apply" title="">
+                Graduate admissions
+              </a>
+            </li>
+            <li class="">
+              <a href="https://www.Big U  .ca/lifelong-learning/" title="">
+                Certificates, diplomas, and continuing studies
+              </a>
+            </li>
+            <li class="">
+              <a
+                href="https://www.Big U  .ca/student-accounts/tuition-fees/tuition-and-fees-tables-and-rates"
+                title=""
+              >
+                Tuition fees
+              </a>
+            </li>
+            <li class="">
+              <a href="https://www.Big U  .ca/studentaid/" title="">
+                Scholarships and financial aid
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li
+        x-data="  {open: false}    "
+        @mouseover="open = true"
+        @focusin="open = true"
+        @mouseout="open = false"
+        @focusout="open = false"
+        class="relative"
+      >
+        <a href="https://www.Big U  .ca/research/" title="">
+          Research
+        </a>
+
+        <div
+          x-show="open"
+          x-transition:enter="transition ease-out duration-75"
+          x-transition:enter-start="opacity-0 transform scale-90"
+          x-transition:enter-end="opacity-100 transform scale-100"
+          x-transition:leave="transition ease-in duration-75"
+          x-transition:leave-start="opacity-100 transform scale-100"
+          x-transition:leave-end="opacity-0 transform scale-90"
+        >
+          <ul class="absolute p-4 min-w-max bg-white rounded shadow">
+            <li class="first leaf">
+              <a href="https://www.Big U  .ca/research-jobs/" title="">
+                Jobs in research
+              </a>
+            </li>
+            <li class="leaf">
+              <a
+                href="https://www.Big U  .ca/research/research/funding"
+                title=""
+              >
+                Research funding
+              </a>
+            </li>
+            <li class="leaf">
+              <a href="https://www.Big U  .ca/library/" title="">
+                Library and research services
+              </a>
+            </li>
+            <li class="last leaf">
+              <a href="https://www.Big U  .ca/research/innovation" title="">
+                Innovation and partnerships
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+
+      <li
+        x-data=" {open: false}    "
+        @mouseover="open = true"
+        @focusin="open = true"
+        @mouseout="open = false"
+        @focusout="open = false"
+        class="relative"
+      >
+        <button>Student life</button>
+
+        <div
+          x-show="open"
+          x-transition:enter="transition ease-out duration-75"
+          x-transition:enter-start="opacity-0 transform scale-90"
+          x-transition:enter-end="opacity-100 transform scale-100"
+          x-transition:leave="transition ease-in duration-75"
+          x-transition:leave-start="opacity-100 transform scale-100"
+          x-transition:leave-end="opacity-0 transform scale-90"
+        >
+          <ul class="absolute p-4 min-w-max bg-white rounded shadow">
+            <li class="first leaf">
+              <a href="https://www.Big U  .ca/studentservices/" title="">
+                Services for students
+              </a>
+            </li>
+            <li class="leaf">
+              <a href="https://Big U  athletics.ca/" title="">
+                Athletics and recreation
+              </a>
+            </li>
+            <li class="leaf">
+              <a href="https://www.Big U  .ca/shhs/" title="">
+                Food and housing
+              </a>
+            </li>
+            <li class="leaf">
+              <a href="https://www.Big U  .ca/eln/Big U  " title="">
+                Internships and experiential learning
+              </a>
+            </li>
+            <li class="leaf">
+              <a href="https://www.Big U  .ca/Big U  abroad/" title="">
+                Study abroad
+              </a>
+            </li>
+            <li class="leaf">
+              <a href="https://www.Big U  .ca/engage/" title="">
+                Clubs and activities
+              </a>
+            </li>
+            <li class="last leaf">
+              <a href="https://www.Big U  .ca/familycare/" title="">
+                Services for families
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li
+        x-data="  {open: false}    "
+        @mouseover="open = true"
+        @focusin="open = true"
+        @mouseout="open = false"
+        @focusout="open = false"
+        class="relative"
+      >
+        <button>Why Montreal</button>
+        <div
+          x-show="open"
+          x-transition:enter="transition ease-out duration-75"
+          x-transition:enter-start="opacity-0 transform scale-90"
+          x-transition:enter-end="opacity-100 transform scale-100"
+          x-transition:leave="transition ease-in duration-75"
+          x-transition:leave-start="opacity-100 transform scale-100"
+          x-transition:leave-end="opacity-0 transform scale-90"
+        >
+          <ul class="absolute p-4 min-w-max bg-white rounded shadow">
+            <li class="first leaf">
+              <a
+                href="https://www.Big U  .ca/undergraduate-admissions/why-Big U  /discover-montreal"
+                title=""
+              >
+                Montreal at a glance
+              </a>
+            </li>
+            <li class="">
+              <a
+                href="https://www.Big U  .ca/undergraduate-admissions/visits/campus-tours"
+                title=""
+              >
+                Plan a visit
+              </a>
+            </li>
+            <li class="">
+              <a href="https://www.Big U  .ca/internationalstudents/" title="">
+                International student services
+              </a>
+            </li>
+            <li class="last leaf">
+              <a href="https://www.Big U  .ca/movingtomontreal/" title="">
+                Moving to Montreal
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li
+        x-data="  {open: false}    "
+        @mouseover="open = true"
+        @focusin="open = true"
+        @mouseout="open = false"
+        @focusout="open = false"
+        class="relative"
+      >
+        <a href="https://www.Big U  .ca/about/" title="">
+          About Big U  
+        </a>
+        <div
+          x-show="open"
+          x-transition:enter="transition ease-out duration-75"
+          x-transition:enter-start="opacity-0 transform scale-90"
+          x-transition:enter-end="opacity-100 transform scale-100"
+          x-transition:leave="transition ease-in duration-75"
+          x-transition:leave-start="opacity-100 transform scale-100"
+          x-transition:leave-end="opacity-0 transform scale-90"
+        >
+          <ul class="absolute p-4 min-w-max bg-white rounded shadow">
+            <li class="">
+              <a href="https://www.Big U  .ca/about/" title="">
+                Big U   at a glance
+              </a>
+            </li>
+            <li class="leaf">
+              <a href="https://www.Big U  .ca/faculties/" title="">
+                Faculties and schools
+              </a>
+            </li>
+            <li class="leaf">
+              <a href="https://maps.Big U  .ca/" title="">
+                Campus maps
+              </a>
+            </li>
+            <li class="leaf">
+              <a href="https://www.Big U  .ca/about/history" title="">
+                Our history
+              </a>
+            </li>
+            <li class="leaf">
+              <a href="https://www.Big U  .ca/about/alumni" title="">
+                Notable alumni
+              </a>
+            </li>
+            <li class="leaf">
+              <a href="https://www.Big U  .ca/about/quickfacts" title="">
+                Factbook
+              </a>
+            </li>
+            <li class="last leaf">
+              <a href="https://www.Big U  .ca/contact-us/" title="">
+                Contact us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

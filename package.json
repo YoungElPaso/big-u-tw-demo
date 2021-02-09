@@ -1,0 +1,16 @@
+{
+  "name": "11ty-based-tw-css-and-alpinejs-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "eleventy --serve --port=3001"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "0.11.1",
+    "alpinejs": "2.8.0",
+    "autoprefixer": "10.2.4",
+    "postcss": "8.2.5",
+    "tailwindcss": "2.0.2"
+  },
+  "keywords": []
+}

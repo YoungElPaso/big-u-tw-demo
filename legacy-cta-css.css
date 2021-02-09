@@ -1,0 +1,134 @@
+.block {
+  background-color: transparent;
+  box-sizing: border-box;
+  clear: both;
+  padding: 10px 0;
+  float: left;
+  width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.block-bean.mode-third {
+  width: 32.0113314448%;
+  float: left;
+  margin-right: 1.9830028329%;
+  clear: none;
+  margin-right: 1.9830028329%;
+}
+
+@media only screen and (max-width: 680px) {
+  .block-bean.mode-third {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 480px) {
+  .cta--third,
+  .block-bean-mcgill-call-to-action.mode-third {
+    text-align: left;
+  }
+}
+
+.cta--primary,
+.block-bean-mcgill-call-to-action.mode-third,
+.block-bean-mcgill-call-to-action.mode-half,
+.block-bean-mcgill-call-to-action.mode-full {
+  border-top: 1px solid #979797;
+}
+
+@media (min-width: 480px) .cta--third .field-type-image,
+  .block-bean-mcgill-call-to-action.mode-third .field-type-image {
+  display: block;
+}
+
+.block-bean .field-name-field-m-image-info img {
+  width: 100% !important;
+  height: auto;
+}
+
+.block-bean img {
+  max-width: 100%;
+  height: auto;
+}
+
+a.button--outline,
+.cta--third a.button,
+.block-bean-mcgill-call-to-action.mode-third a.button {
+  background-color: transparent;
+  border-color: #000;
+}
+
+a.button,
+a.button--reverse,
+.block-bean-mcgill-banner a.button,
+.cta--sidebar a.button,
+#sidebar-column .block-bean-mcgill-call-to-action a.button,
+.cta--highlighted a.button,
+#highlighted .block-bean-mcgill-call-to-action.mode-enhanced a.button,
+.cta--sidebar.mode-enhanced a.button,
+.mode-enhanced.cta--highlighted a.button,
+#sidebar-column .cta--dark-mode a.button,
+#sidebar-column .paragraphs-item-call-to-action a.button,
+#highlighted .cta--dark-mode a.button,
+#highlighted .paragraphs-item-call-to-action a.button,
+a.button--outline,
+.cta--third a.button,
+.block-bean-mcgill-call-to-action.mode-third a.button,
+a.button--primary,
+.cta--full .has-image a.button,
+.block-bean-mcgill-call-to-action.mode-full .has-image a.button,
+a.button--default,
+.item-list ul.pager-load-more li a,
+.cta--half a.button,
+.block-bean-mcgill-call-to-action.mode-half a.button {
+  display: inline-block;
+  font-size: 0.875rem;
+  line-height: 1.1;
+  padding: 0.7em 1.05em;
+  transition: background 0.15s;
+  position: relative;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.button,
+a:link.button,
+a.button,
+button {
+  font-family: "McGillSans-Medium", "Helvetica Neue-Medium",
+    "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "McGillSerif-Medium", "MinionPro-Medium", "Minion Pro Medium",
+    "Minion Pro", Century, Georgia, serif;
+}
+
+.cta .inner-wrapper p:first-of-type,
+.block-bean-mcgill-call-to-action .inner-wrapper p:first-of-type {
+  margin-top: 0;
+}
+
+.cta .inner-wrapper p:last-of-type,
+.block-bean-mcgill-call-to-action .inner-wrapper p:last-of-type {
+  margin-bottom: 1em;
+}
+
+body {
+  font-size: 98%;
+  font-size: var(--font-size-narrow);
+  font-smoothing: antialiased;
+  font-family: "McgillSans-Regular", "Helvetica Neue-Medium",
+    "Helvetica Neue Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  color: #000;
+}

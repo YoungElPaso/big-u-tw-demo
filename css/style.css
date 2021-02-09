@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "McGillSans-Regular";
+  src: url("../mds-fonts/McGillSans-Regular.woff2") format("woff2"),
+    url("../mds-fonts/McGillSans-Regular.woff") format("woff"),
+    url("../mds-fonts/McGillSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "McGillSans-Medium";
+  src: url("../mds-fonts/McGillSans-Medium.woff2") format("woff2"),
+    url("../mds-fonts/McGillSans-Medium.woff") format("woff"),
+    url("../mds-fonts/McGillSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "McGillSerif-Medium";
+  src: url("../mds-fonts/McGillSerif-Medium.woff2") format("woff2"),
+    url("../mds-fonts/McGillSerif-Medium.woff") format("woff"),
+    url("../mds-fonts/McGillSerif-Medium.ttf") format("truetype");
+}
