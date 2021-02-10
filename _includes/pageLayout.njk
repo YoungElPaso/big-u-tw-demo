@@ -8,7 +8,15 @@ title: Big Deal U.
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
-    <link rel="stylesheet" href=" {{ "/css/tw.css" | url}}">
+    
+    <link rel="preload" as="script" href="{{ "/js/alpine.js" | url }}" />
+    <script src="{{ "/js/alpine.js" | url }}"></script>
+    
+    <link rel="modulepreload" as="script" href="{{ "/js/autoComplete.js" | url }}" />
+    <script type="module" defer src="{{ "/js/autoComplete.js" | url }}"></script>
+    
+    <link rel="preload" as="style" href="{{ "/css/tw.css" | url}}">
+    <link rel="stylesheet" href="{{ "/css/tw.css" | url}}">
   </head>
   <body style="background: #FFF;" class="font-mds-standard">
 
@@ -297,7 +305,7 @@ title: Big Deal U.
                   <div class="field-item even">
                     <ul class="md:flex flex-row space-x-8 justify-evenly py-6">
                       <li class="flex-grow">
-                        <h4 class="text-2xl mb-3">
+                        <h3 class="text-2xl mb-3">
                           In an emergency
                         </h4>
 
@@ -315,7 +323,7 @@ title: Big Deal U.
                         </ul>
                       </li>
                       <li class="flex-grow">
-                        <h4 class="text-2xl mb-3">
+                        <h3 class="text-2xl mb-3">
                           Visit
                         </h4>
 
@@ -338,7 +346,7 @@ title: Big Deal U.
                         </ul>
                       </li>
                       <li class="flex-grow">
-                        <h4 class="text-2xl mb-3">
+                        <h3 class="text-2xl mb-3">
                           Get in touch
                         </h4>
 
@@ -364,7 +372,7 @@ title: Big Deal U.
                         </ul>
                       </li>
                       <li class="flex-grow">
-                        <h4 class="text-2xl mb-3">
+                        <h3 class="text-2xl mb-3">
                           Explore
                         </h4>
 
@@ -513,6 +521,4 @@ title: Big Deal U.
 <!-- End footer -->
 
   </body>
-  <script src="{{ "/js/alpine.js" | url }}"></script>
-  <script type="module" src="{{ "/js/autoComplete.js" | url }}"></script>
 </html>
