@@ -8,9 +8,15 @@ title: Big Deal U.
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
+    
     <link rel="preload" as="script" href="{{ "/js/alpine.js" | url }}" />
-    <link rel="modulepreload" src="{{ "/js/autoComplete.js" | url }}" />
-    <link rel="preload" as="style" href=" {{ "/css/tw.css" | url}}">
+    <link rel="script" href="{{ "/js/alpine.js" | url }}" />
+    
+    <link rel="modulepreload" as="script" href="{{ "/js/autoComplete.js" | url }}" />
+    <link rel="script" href="{{ "/js/autoComplete.js" | url }}" />
+    
+    <link rel="preload" as="style" href="{{ "/css/tw.css" | url}}">
+    <link rel="stylesheet" href="{{ "/css/tw.css" | url}}">
   </head>
   <body style="background: #FFF;" class="font-mds-standard">
 
