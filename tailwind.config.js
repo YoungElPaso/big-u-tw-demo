@@ -5,9 +5,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "mds-sans-bold": ["McGillSans-Medium"],
-        "mds-serif-bold": ["McGillSerif-Medium"],
-        "mds-standard": ["McGillSans-Regular"]
+        "mds-sans-bold": ["McGillSans-Medium", "Helvetica", "sans-serif"],
+        "mds-serif-bold": ["McGillSerif-Medium", "Georgia", "serif"],
+        "mds-standard": ["McGillSans-Regular", "Helvetica", "sans-serif"]
       }
     }
   },
