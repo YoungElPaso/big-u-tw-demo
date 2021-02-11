@@ -12,6 +12,7 @@
     "cssnano": "4.1.10",
     "cssnano-preset-default": "4.0.7",
     "postcss": "8.2.5",
+    "postcss-load-config": "3.0.1",
     "tailwindcss": "2.0.2"
   },
   "keywords": []
