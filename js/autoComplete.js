@@ -1,5 +1,5 @@
-// Import fuseJs from skypack.
-import fuseJs from "https://cdn.skypack.dev/fuse.js";
+// Import fuseJs from skypack - production version.
+import fuseJs from "https://cdn.skypack.dev/pin/fuse.js@v6.4.6-U5JyoRVOE1K4leaJt7Eq/mode=imports,min/optimized/fusejs.js";
 
 // Init a new Fuse instance with some pretty random docs.
 const docs = [
