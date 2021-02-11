@@ -1,7 +1,7 @@
 {
-  "name": "11ty-based-tw-css-and-alpinejs-demo",
+  "name": "big-u-11ty-tailwind-alpine-fuse-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "A demo for 'Big U.' that uses 11ty, Tailwind CSS, Alpine JS and Fuse JS to demo some layouts, functionality and performance and other things.",
   "scripts": {
     "start": "eleventy --serve --port=3001"
   },
