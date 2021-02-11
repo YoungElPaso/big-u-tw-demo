@@ -1,9 +1,10 @@
-// const tailwindcss = require("tailwindcss");
-// const autoprefixer = require("autoprefixer");
-// const cssnano = require("cssnano");
+// Load postcss.
 const postcss = require("postcss");
+
+// Need to write to file system.
 const fs = require("fs");
 
+// Load post-css-load-config to handle plugin/config options.
 const postcssrc = require("postcss-load-config");
 
 module.exports = function () {
